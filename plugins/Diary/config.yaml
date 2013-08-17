@@ -1,0 +1,13 @@
+id: Diary
+name: Diary
+key: diary
+version: 1.1
+description: <__trans phrase='Utility for creating entry for diary.'>
+author_name: okayama
+author_link: http://weeeblog.net/
+l10n_class: Diary::L10N
+blog_config_template: diary_config_blog.tmpl
+settings:
+    is_active:
+callbacks:
+    MT::App::CMS::template_param.edit_entry: $diary::Diary::Plugin::_cb_tp_edit_entry

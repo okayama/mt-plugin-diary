@@ -1,6 +1,6 @@
-package MT::Diary::L10N::ja;
+package Diary::L10N::ja;
 use strict;
-use base qw/ MT::Diary::L10N MT::L10N MT::Plugin::L10N /;
+use base qw( Diary::L10N MT::L10N MT::Plugin::L10N );
 use vars qw( %Lexicon );
 
 our %Lexicon = (
